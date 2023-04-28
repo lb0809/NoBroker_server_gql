@@ -87,7 +87,7 @@ async function startApolloServer() {
 
   // app.use('/graphql',()=>{console.log("hit")})
 
-
+  //added
   // to upload
   app.post('/uploadImage', upload.single('file'), (req, res) => {
     console.log(req.file)
