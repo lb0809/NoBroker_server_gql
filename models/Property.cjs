@@ -153,5 +153,6 @@ const PropSchema=new Schema({
     //     'sublocality': "Neighbour 4"
     //   }
 })
+PropSchems.index({title:'text'})
 const Property=mongoose.model('prop',PropSchema)
 module.exports=Property
